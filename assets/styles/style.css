@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+header{
+    width: 100%;
+    background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
+    background-size: cover;
+    height: 768px;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    width: 1440px;
+    height: 68px;
+    left: 0;
+    justify-content: space-between;
+    padding-top: 22px;
+}
+nav{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+nav a{
+    font-family: Inter, sans-serif;
+    color: #656464;
+    font-size: 14px;
+    text-decoration: none;
+}
+.logo{
+    margin-right: 72px;
+}
+.header_link{
+    margin-left: 380px;
+
+}
+.blog{
+    margin-left: 33px;
+}
+.arrow{
+    margin-left: 1px;
+    display: flex;
+}
+.btn{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 14px;
+    color: white;
+    text-decoration: none;
+    background: #2091F9;
+    border: none;
+    align-items: center;
+}
+.header_link .btn{
+    width: 123px;
+    height: 50px;
+    font-size: 12px;
+}
+.text{
+    border: none;
+    color: white;
+    margin-left: 10px;
+    margin-right: 47px;
+    background: transparent;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+}
