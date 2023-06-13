@@ -74,3 +74,72 @@ nav a{
     font-family: 'Inter', sans-serif;
     font-size: 12px;
 }
+hr{
+    width: 110px;
+    height: 0;
+    border: 1px solid #E5E5E5;
+}
+.title_block{
+    width: 515px;
+    height: 132px;
+    font-family: 'Inter', sans-serif;
+    font-size: 56px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+.subtitle_block{
+    width: 515px;
+    height: 156px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+}
+.community .btn:first-child{
+    width: 177px;
+    height: 36px;
+    background: rgba(33, 123, 244, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    padding: 16px 62px;
+    color: #217BF4;
+}
+.community{
+    width: 515px;
+    height: 366px;
+    margin-top: 156px;
+    margin-left: 240px;
+}
+.community .btn:nth-last-child(2){
+    width: 162px;
+    height: 62px;
+    background: #217BF4;
+    box-shadow: 0 7px 22px -6px rgba(33, 123, 244, 0.34);
+    border-radius: 14px;
+    display: block;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    margin-top: 42px;
+    margin-right: 18px;
+    padding: 24px 0;
+}
+.community .btn:last-child{
+    width: 167px;
+    height: 62px;
+    border-radius: 14px;
+    color: #217BF4;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    padding: 24px 0;
+    display: block;
+    margin-top: 42px;
+    border: 1px solid #217BF4;
+    background: white;
+}
+.buttons{
+    display: flex;
+}
+.community .people{
+    margin-left: 500px;
+}
