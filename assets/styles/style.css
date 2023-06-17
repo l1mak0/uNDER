@@ -157,6 +157,7 @@ hr{
     width: 406px;
     height: 346px;
     margin-left: 235px;
+    position: relative;
 }
 .upper_title{
     font-family: 'Inter', sans-serif;
@@ -181,13 +182,42 @@ hr{
     width: 8px;
     height: 8px;
     margin-top: 16px;
-    position: absolute;
+    position: relative;
 }
 .group{
     position: absolute;
     z-index: 9;
+    top: 40%;
+    left: 13%;
+    padding: 10px ;
+    transform: translate(-50%, -50%);
 }
 .circle_text{
     position: relative;
     top: 0;
+    grid-area: text;
+}
+.photo_netbook{
+    float: right;
+    position: relative;
+    grid-area: img;
+    margin-left: 300px;
+}
+.grid{
+    grid-template-areas: "text img";
+    display: grid;
+}
+.photo1{
+    margin-left: 100px;
+    width: 281px;
+    height: 422px;
+    position: absolute;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+.photo2{
+    position: absolute;
+    width: 267px;
+    height: 252px;
+
 }
