@@ -142,13 +142,22 @@ hr{
     display: block;
 }
 .people{
-    width: 585px;
-    height: 501px;
     margin-left: 719px;
+    position: absolute;
+    display: block;
+    margin-top: -450px;
+
 }
 .community1 .container{
     width: 515px;
     height: 366px;
+}
+.lene{
+    width: 100%;
+    height: 1px;
+    margin-top: 20px;
+    opacity: 0.10000000149011612;
+    background: #217BF4;
 }
 .netbook{
     margin-top: 96px;
@@ -495,15 +504,109 @@ hr{
 }
 .bolg .main{
     margin-top: 100px;
+    position: relative;
 }
 .dots{
     position: absolute;
     z-index: -2;
-    left: -5%;
-    bottom: -2%;
+    left: -105%;
+    bottom: -122%;
 }
 .img_bolg{
     margin-top: 75px;
     padding-left: 135px;
     display: block;
+}
+.main_all{
+    margin-left: -545px;
+}
+.line {
+    border-bottom: 1px solid #FFAF2E; ;
+    width: 39px;
+    height: 2px;
+    margin-left: 150px;
+    padding-top: 35px;
+    display: block;
+    position: absolute;
+}
+.main_text .subtitle_block{
+    display: flex;
+    width: 210px;
+    text-align: start;
+    float: left;
+    height: 67px;
+    flex-direction: column;
+    color: #2F2C4A;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.main_text .upper_title{
+    text-decoration: none;
+    height: 16px;
+    width: 170px;
+    display: block;
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 80px;
+}
+.manes{
+    display: flex;
+    justify-content: space-between;
+    margin-right: -400px;
+}
+.dots1{
+    position: absolute;
+    z-index: -2;
+    left: 178%;
+    bottom: -200%;
+}
+footer{
+    border-top: 1px solid #FFFFFF80;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    background: #2B2B39;
+    width: 100%;
+    height: 485px;
+    margin-top: 700px;
+}
+.footer_head{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 27%;
+    color: #fff;
+    text-decoration: none;
+}
+.footer_info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 78px;
+    margin-left: 135px;
+}
+.quick_link h2,
+.resource_link h2 ,
+.contact_link h2,
+.mata_link{
+    font-family: Inter, sans-serif;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 25px;
+}
+.quick_link ul,
+.resource_link ul,
+.contact_link ul,
+.mata_link ul{
+    list-style: none;
+    color: white;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+.quick_link li,
+.resource_link li,
+.contact_link li,
+.mata_link li{
+    margin-bottom: 10px;
+    text-decoration: none;
 }
